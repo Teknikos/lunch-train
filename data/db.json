@@ -1,0 +1,24 @@
+{
+    "participants": [
+        {
+            "id": 1,
+            "name": "Martin",
+            "email": ""
+        },
+        {
+            "id": 2,
+            "name": "Arvid",
+            "email": ""
+        },
+        {
+            "id": 3,
+            "name": "Moa",
+            "email": ""
+        },
+        {
+            "id": 4,
+            "name": "Nadja",
+            "email": ""
+        }
+    ]
+}
