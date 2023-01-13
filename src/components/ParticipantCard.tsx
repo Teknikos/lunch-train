@@ -1,4 +1,6 @@
-import { Avatar, Button, Card, CardActions, CardContent, Typography } from "@mui/material";
+import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Avatar, Button, Card, CardActions, CardContent, IconButton, Typography } from "@mui/material";
 
 interface ParticipantProps {
     id: number
@@ -20,11 +22,9 @@ export default function ParticipantCard({ name, id, handleDelete }: ParticipantP
                 <Typography>{name}</Typography>
             </CardContent>
             <CardActions>
-                <Avatar sx={{ backgroundColor: 'red', width: 22, height: 22, fontSize: 'small' }}>
-                    <Button color="inherit" onClick={() => handleDelete(id)}>
-                        x
-                    </Button>
-                </Avatar>
+                <IconButton color='error' onClick={() => handleDelete(id)}>
+                    <FontAwesomeIcon icon={faCircleXmark} />
+                </IconButton>
             </CardActions>
         </Card>
     )

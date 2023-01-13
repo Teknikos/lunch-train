@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleXmark, faShoePrints } from '@fortawesome/free-solid-svg-icons';
+import { faBackward, faCircleXmark, faShoePrints } from '@fortawesome/free-solid-svg-icons';
 import { AppBar, Box, Button, IconButton, Toolbar, Typography } from "@mui/material";
 import dayjs from "dayjs";
 import { useEffect, useState } from "react";
@@ -22,7 +22,7 @@ export default function HeaderBar() {
             <Toolbar sx={{ justifyContent: 'space-between' }}>
                 <Box>
                     <IconButton color='inherit'>
-                        <FontAwesomeIcon icon={faCircleXmark} />
+                        <FontAwesomeIcon icon={faBackward} />
                     </IconButton>
                 </Box>
                 <Box>
