@@ -11,13 +11,8 @@
       "email": ""
     },
     {
-      "id": 3,
-      "name": "Moa",
-      "email": ""
-    },
-    {
-      "name": "Erik",
-      "id": 4
+      "name": "John",
+      "id": 5
     }
   ]
 }
